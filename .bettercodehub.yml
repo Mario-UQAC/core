@@ -1,0 +1,11 @@
+component_depth: 1
+languages:
+- name: typescript
+  production:
+    exclude:
+      - /test/.*
+      - /test-helpers/.*
+  test:
+    include:
+      - /test/.*
+      - /test-helpers/.*
