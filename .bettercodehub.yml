@@ -3,6 +3,7 @@ languages:
 - name: typescript
   production:
     exclude:
+      - /templates/*
       - /test/.*
       - /test-helpers/.*
   test:
